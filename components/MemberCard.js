@@ -18,6 +18,9 @@ function MemberCard({ memberObj, onUpdate }) {
       <Card.Body>
         <Card.Title>{memberObj.first_name} {memberObj.last_name}</Card.Title>
         <h6>Role: {memberObj.role}</h6>
+        <Link href={`/member/${memberObj.firebaseKey}`} passHref>
+          <Button variant="success" className="m-2">VIEW</Button>
+        </Link>
         <Link href={`/member/edit/${memberObj.firebaseKey}`} passHref>
           <Button variant="info">EDIT</Button>
         </Link>
