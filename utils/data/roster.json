@@ -87,5 +87,57 @@
     "role": "Catcher",
     "firebaseKey": "-NgvLMTD_kCSixRRibH1",
     "team_id": "-Nh2F77TEeRa5DYVghaV"
+  },
+
+  "-NgvLMSzTARLb_0cXlW": {
+    "uid": "ZqU9qDPRVsQKkuwupJg1Nqj9t5s2",
+    "first_name": "Sammy",
+    "last_name": "Sosa",
+    "image": "https://i.ebayimg.com/images/g/SFcAAOSwt5Fhv6Vh/s-l1200.webp",
+    "role": "Outfielder",
+    "firebaseKey": "-NgvLMSzTARLb_0cXlW",
+    "team_id": "-Nh2RQq13km9TTBKoaiN"
+  },
+
+  "-Vh7FMc9DQU5Yl_8bXcR": {
+    "uid": "ZqU9qDPRVsQKkuwupJg1Nqj9t5s2",
+    "first_name": "Kerry",
+    "last_name": "Wood",
+    "image": "https://s.turbifycdn.com/aah/autographsforsale/kerry-wood-chicago-cubs-8x10-portrait-photo-86.jpg",
+    "role": "Pitcher",
+    "firebaseKey": "-Vh7FMc9DQU5Yl_8bXcR",
+    "team_id": "-Nh2RQq13km9TTBKoaiN"
+  },
+
+  "-Hk5BZQpDTRWZs_9dXcS": {
+    "uid": "ZqU9qDPRVsQKkuwupJg1Nqj9t5s2",
+    "first_name": "Derrek",
+    "last_name": "Lee",
+    "image": "https://media.gettyimages.com/id/97242392/photo/derrek-lee-of-the-chicago-cubs-poses-for-a-photo-during-spring-training-media-photo-day-at.jpg?s=612x612&w=gi&k=20&c=hfbDe7XWf-MfouDirJ1H4yR-bNGjyTWeiepqOQk7ktc=",
+    "role": "First Baseman",
+    "firebaseKey": "-Hk5BZQpDTRWZs_9dXcS",
+    "team_id": "-Nh2RQq13km9TTBKoaiN"
+  },
+
+  "-Fg1XZPzETVUJb_2cXlR": {
+    "uid": "ZqU9qDPRVsQKkuwupJg1Nqj9t5s2",
+    "first_name": "Aramis",
+    "last_name": "Ramirez",
+    "image": "https://media.gettyimages.com/id/52301584/photo/aramis-ramirez-of-the-chicago-cubs-poses-for-a-portrait-during-photo-day-at-hohokam-park-on.jpg?s=612x612&w=gi&k=20&c=zyQkfXFKsy2WzMZhrzKtIwq0Y6HChEGqo4iwn7r1zIo=",
+    "role": "Third Baseman",
+    "firebaseKey": "-Fg1XZPzETVUJb_2cXlR",
+    "team_id": "-Nh2RQq13km9TTBKoaiN"
+  },
+
+  "-Dh2VYZpESQVJa_4dXcT": {
+    "uid": "ZqU9qDPRVsQKkuwupJg1Nqj9t5s2",
+    "first_name": "Carlos",
+    "last_name": "Zambrano",
+    "image": "https://www.hollandsentinel.com/gcdn/authoring/2009/06/06/NHOS/ghows-MI-ea365211-6354-47a6-84cb-3e5e94c2de2d-492de34b.jpeg?width=660&height=992&fit=crop&format=pjpg&auto=webp",
+    "role": "Pitcher",
+    "firebaseKey": "-Dh2VYZpESQVJa_4dXcT",
+    "team_id": "-Nh2RQq13km9TTBKoaiN"
   }
+  
+  
 }
