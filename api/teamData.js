@@ -34,6 +34,29 @@ const createTeam = (payload) => new Promise((resolve, reject) => {
     .catch(reject);
 });
 
+const deleteSingleTeam = (firebaseKey) => new Promise((resolve, reject) => {
+  fetch(`${endpoint}/teams/${firebaseKey}.json`, {
+    method: 'DELETE',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+  })
+    .then((response) => response.json())
+    .then((data) => resolve(data))
+    .catch(reject);
+});
+
+const getTeamMembers = (firebaseKey) => new Promise((resolve, reject) => {
+  fetch(`${endpoint}/members.json?orderBy="team_id"&equalTo="${firebaseKey}"`, {
+    method: 'GET',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+  }).then((response) => response.json())
+    .then((data) => resolve(Object.values(data)))
+    .catch(reject);
+});
+
 const getSingleTeam = (firebaseKey) => new Promise((resolve, reject) => {
   fetch(`${endpoint}/teams/${firebaseKey}.json`, {
     method: 'GET',
@@ -93,4 +116,6 @@ export {
   deleteTeam,
   updateTeam,
   favoriteTeam,
+  getTeamMembers,
+  deleteSingleTeam,
 };

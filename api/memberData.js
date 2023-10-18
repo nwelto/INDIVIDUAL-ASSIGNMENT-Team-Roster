@@ -20,6 +20,18 @@ const getMember = (uid) => new Promise((resolve, reject) => {
     .catch(reject);
 });
 
+const getMembersByTeam = (firebaseKey) => new Promise((resolve, reject) => {
+  fetch(`${endpoint}/members.json?orderBy=team_id"&equalTo="${firebaseKey}"`, {
+    method: 'GET',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+  })
+    .then((response) => response.json())
+    .then((data) => resolve(Object.values(data)))
+    .catch(reject);
+});
+
 const createMember = (payload) => new Promise((resolve, reject) => {
   console.warn('Payload to createMember', payload);
   fetch(`${endpoint}/members.json`, {
@@ -93,4 +105,5 @@ export {
   deleteMember,
   updateMembers,
   favoriteMembers,
+  getMembersByTeam,
 };
