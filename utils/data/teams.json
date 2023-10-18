@@ -1,0 +1,18 @@
+{
+  "-Nh2F77TEeRa5DYVghaV": {
+    "name": "St. Louis Cardinals",
+    "league": "National",
+    "favorite": true,
+    "firebaseKey": "-Nh2F77TEeRa5DYVghaV",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/St_Louis_Cardinals_Cap_Insignia.svg/1200px-St_Louis_Cardinals_Cap_Insignia.svg.png",
+    "uid": "ZqU9qDPRVsQKkuwupJg1Nqj9t5s2"
+  },
+  "-Nh2F77UxaeKl2WM8lqR": {
+    "name": "Chicago Cubs",
+    "league": "National",
+    "favorite": false,
+    "firebaseKey": "-Nh2F77UxaeKl2WM8lqR",
+    "image": "https://img.mlbstatic.com/mlb-images/image/private/t_16x9/t_w1024/mlb/nfrmpctgsmdi0w8mmwnt",
+    "uid": "ZqU9qDPRVsQKkuwupJg1Nqj9t5s2"
+  }
+}
