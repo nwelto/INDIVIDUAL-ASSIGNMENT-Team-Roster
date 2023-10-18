@@ -4,7 +4,7 @@ import { getSingleMember, deleteMember } from './memberData';
 const viewMemberDetails = (memberFirebaseKey) => new Promise((resolve, reject) => {
   getSingleMember(memberFirebaseKey)
     .then((memberObject) => {
-      getSingleTeam(memberObject.teamId)
+      getSingleTeam(memberObject.team_id)
         .then((teamObject) => {
           resolve({ teamObject, ...memberObject });
         });
@@ -20,7 +20,6 @@ const viewTeamDetails = (teamFirebaseKey) => new Promise((resolve, reject) => {
 
 const deleteTeamMembers = (teamId) => new Promise((resolve, reject) => {
   getTeamMembers(teamId).then((membersArray) => {
-    console.warn(membersArray, 'Team Players');
     const deleteMemberPromises = membersArray.map((member) => deleteMember(member.firebaseKey));
 
     Promise.all(deleteMemberPromises).then(() => {
