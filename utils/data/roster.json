@@ -1,0 +1,82 @@
+{
+  "-NgvLMSzCWINTb_0cXlW": {
+    "uid": "ZqU9qDPRVsQKkuwupJg1Nqj9t5s2",
+    "first_name": "Mark",
+    "last_name": "McGwire",
+    "image": "https://render.fineartamerica.com/images/rendered/default/print/5.5/8/break/images/artworkimages/medium/2/mark-mcgwire-25-matthew-stockman.jpg",
+    "role": "First Baseman",
+    "firebaseKey": "-NgvLMSzCWINTb_0cXlW"
+  },
+  "-NgvLMT0HX6xteq4zzUA": {
+    "uid": "ZqU9qDPRVsQKkuwupJg1Nqj9t5s2",
+    "first_name": "Albert",
+    "last_name": "Pujols",
+    "image": "https://2.bp.blogspot.com/-AK-dE7H1Gfw/TuOcfOV4mfI/AAAAAAAAADo/8OvLa7z--So/s1600/Albert-Pujols-Injury-Cardinals-Star-Out-4-6-Weeks-With-Arm-Fracture.jpg",
+    "role": "Third Baseman",
+    "firebaseKey": "-NgvLMT0HX6xteq4zzUA"
+  },
+  "-NgvLMT2bjrwthyP-OMy": {
+    "uid": "ZqU9qDPRVsQKkuwupJg1Nqj9t5s2",
+    "first_name": "Jim",
+    "last_name": "Edmonds",
+    "image": "https://media.gettyimages.com/id/3043484/photo/center-fielder-jim-edmonds-of-the-st-louis-cardinals-during-cardinals-springtraining-photo-day.jpg?s=612x612&w=gi&k=20&c=n0syDXr_3WnXcmxnB6KUGLHtWwkD9Fk692TojoYBFrc=",
+    "role": "Center Fielder",
+    "firebaseKey": "-NgvLMT2bjrwthyP-OMy"
+  },
+  "-NgvLMT3_4LHJgDtDCWb": {
+    "uid": "ZqU9qDPRVsQKkuwupJg1Nqj9t5s2",
+    "first_name": "Scott",
+    "last_name": "Rolen",
+    "image": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:67:current.png/w_213,q_auto:best/v1/people/121409/headshot/67/current",
+    "role": "Third Baseman",
+    "firebaseKey": "-NgvLMT3_4LHJGtDCWb"
+  },
+  "-NgvLMT5g6nAUOdOw1wL": {
+    "uid": "ZqU9qDPRVsQKkuwupJg1Nqj9t5s2",
+    "first_name": "Ray",
+    "last_name": "Lankford",
+    "image": "https://media.gettyimages.com/id/72340226/photo/outfielder-ray-lankford-of-the-st-louis-cardinals-poses-for-a-studio-portrait-during-spring.jpg?s=612x612&w=gi&k=20&c=ta7L3yf1Z5ywrPzyFBdcnttAkt3epwTiPJpz-4yNU7c=",
+    "role": "Left Fielder",
+    "firebaseKey": "-NgvLMT5g6nAUOdOw1wL"
+  },
+  "-NgvLMT7fz-MyLxoml9g": {
+    "uid": "ZqU9qDPRVsQKkuwupJg1Nqj9t5s2",
+    "first_name": "Fernando",
+    "last_name": "Vina",
+    "image": "https://i.ebayimg.com/images/g/EzgAAOSwMl9h1zyL/s-l1200.jpg",
+    "role": "Second Baseman",
+    "firebaseKey": "-NgvLMT7fz-MyLxoml9g"
+  },
+  "-NgvLMT8I0JC0gLPgfSQ": {
+    "uid": "ZqU9qDPRVsQKkuwupJg1Nqj9t5s2",
+    "first_name": "Edgar",
+    "last_name": "Renteria",
+    "image": "https://media.gettyimages.com/id/72360856/photo/infielder-edgar-renteria-of-the-st-louis-cardinals-poses-for-a-studio-portrait-during-spring.jpg?s=612x612&w=gi&k=20&c=F3gAMgzm-mVkywC3LW4q0Is4F_DJgo4fZFbVCysukQ8=",
+    "role": "Shortstop",
+    "firebaseKey": "-NgvLMT8I0JC0gLPgfSQ"
+  },
+  "-NgvLMTAck4YsvDe0yxE": {
+    "uid": "ZqU9qDPRVsQKkuwupJg1Nqj9t5s2",
+    "first_name": "Darryl",
+    "last_name": "Kile",
+    "image": "https://i.ebayimg.com/images/g/GjgAAOSwGHxi3DbM/s-l1200.jpg",
+    "role": "Pitcher",
+    "firebaseKey": "-NgvLMTAck4YsvDe0yxE"
+  },
+  "-NgvLMTCyBHdH7v_17Hg": {
+    "uid": "ZqU9qDPRVsQKkuwupJg1Nqj9t5s2",
+    "first_name": "Matt",
+    "last_name": "Morris",
+    "image": "https://i.ebayimg.com/images/g/r98AAOSwNYFdOMHt/s-l1600.jpg",
+    "role": "Pitcher",
+    "firebaseKey": "-NgvLMTCyBHdH7v_17Hg"
+  },
+  "-NgvLMTD_kCSixRRibH1": {
+    "uid": "ZqU9qDPRVsQKkuwupJg1Nqj9t5s2",
+    "first_name": "Yadier",
+    "last_name": "Molina",
+    "image": "https://wehco.media.clients.ellingtoncms.com/img/photos/2014/10/13/resized_99261-1cyadiermolinamugco_37-18890_t800.JPG?90232451fbcadccc64a17de7521d859a8f88077d",
+    "role": "Catcher",
+    "firebaseKey": "-NgvLMTD_kCSixRRibH1"
+  }
+}
