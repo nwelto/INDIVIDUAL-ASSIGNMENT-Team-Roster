@@ -13,7 +13,7 @@ function Home() {
         margin: '0 auto',
       }}
     >
-      <h1>Whats up, {user.displayName}! </h1>
+      <h1>Alright {user.displayName}, lets start building! </h1>
     </div>
   );
 }

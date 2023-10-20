@@ -18,12 +18,11 @@ a {
 }
 
 body {
-  background-color: rgba(0, 40, 13, 0.764);
-  color: white;
+  background-image: radial-gradient(circle, #d4d2d2, #c7cbd5, #bac4d8, #adbddb, #a0b6de, #93afe1, #86a8e7, #80b5e8, #7ac2e9, #74cfea, #6edceb, #68e9ec, #5FFBF1)
 }
 
 .card {
-  background-color: rgba(240, 120, 15, 0.368);
+  background-image: linear-gradient(to right, #8d8c8c, #838282, #797878, #6f6e6e, #656464, #5b5a5a, #4d4c4c, #414040, #353434, #292828, #1d1c1c, #111010, #000000);
   color: white;
 }
 
@@ -32,4 +31,8 @@ body {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 20px;
   justify-items: center;
+}
+
+.custom-navbar {
+  background-image: linear-gradient(to left, #8d8c8c, #838282, #797878, #6f6e6e, #656464, #5b5a5a, #4d4c4c, #414040, #353434, #292828, #1d1c1c, #111010, #000000)
 }
