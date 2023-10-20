@@ -18,6 +18,18 @@ a {
 }
 
 body {
-  background-color: black;
+  background-color: rgba(0, 40, 13, 0.764);
   color: white;
+}
+
+.card {
+  background-color: rgba(240, 120, 15, 0.368);
+  color: white;
+}
+
+.cardContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+  justify-items: center;
 }

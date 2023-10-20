@@ -49,12 +49,12 @@ function TeamForm({ obj }) {
 
   return (
     <Form onSubmit={handleSubmit}>
-      <h2 className="text-white mt-5">{obj.firebaseKey ? 'Update' : 'Create'} Team</h2>
+      <h1 className="text-white mt-5">{obj.firebaseKey ? 'Update' : 'Create'} Team</h1>
 
       <FloatingLabel controlId="floatingInput1" label="Name" className="mb-3">
         <Form.Control
           type="text"
-          placeholder="Name"
+          aria-label="Name"
           name="name"
           value={formInput.name}
           onChange={handleChange}
@@ -66,7 +66,7 @@ function TeamForm({ obj }) {
       <FloatingLabel controlId="floatingInput2" label="Team Image" className="mb-3">
         <Form.Control
           type="url"
-          placeholder="Enter an image url"
+          aria-label="Enter an image url"
           name="image"
           value={formInput.image}
           onChange={handleChange}
@@ -78,7 +78,7 @@ function TeamForm({ obj }) {
       <FloatingLabel controlId="floatingTextarea" label="League" className="mb-3">
         <Form.Control
           as="textarea"
-          placeholder="league"
+          aria-label="league"
           name="league"
           value={formInput.league}
           onChange={handleChange}
@@ -91,7 +91,7 @@ function TeamForm({ obj }) {
         type="switch"
         id="favorite"
         name="favorite"
-        label="Favorite?"
+        aria-label="Favorite?"
         checked={formInput.favorite}
         onChange={(e) => {
           setFormInput((prevState) => ({
