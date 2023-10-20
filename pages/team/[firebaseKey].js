@@ -19,7 +19,7 @@ export default function ViewTeam() {
   }, []);
 
   return (
-    <div>{teamDetails.members?.map((member) => (
+    <div className="cardContainer">{teamDetails.members?.map((member) => (
       <MemberCard key={member.firebaseKey} memberObj={member} onUpdate={getTeamDetails} />
     ))}
     </div>
