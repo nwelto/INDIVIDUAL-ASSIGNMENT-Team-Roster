@@ -49,7 +49,7 @@ function TeamForm({ obj }) {
 
   return (
     <Form onSubmit={handleSubmit}>
-      <h1 className="text-white mt-5">{obj.firebaseKey ? 'Update' : 'Create'} Team</h1>
+      <h1 className="text-white mt-5">{obj.firebaseKey ? 'Update' : 'Add'} Team</h1>
 
       <FloatingLabel controlId="floatingInput1" label="Name" className="mb-3">
         <Form.Control
@@ -102,7 +102,7 @@ function TeamForm({ obj }) {
       />
 
       {/* SUBMIT BUTTON  */}
-      <Button type="submit">{obj.firebaseKey ? 'Update' : 'Create'} Team</Button>
+      <Button type="submit">{obj.firebaseKey ? 'Update' : 'Add'} Team</Button>
     </Form>
   );
 }
